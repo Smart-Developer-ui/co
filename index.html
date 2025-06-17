@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="testimonial.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕Coffee</h2>
+            </a>
+
+            <!-- Hamburger icon for mobile -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                    <p class="description">welcome to our coffee paradise , where everyevery cup sparks been ells a
+                        story and joys</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-Us">Contact Us</a>
+                    </div>
+
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <main>
+
+
+        <section class="about-section" id="about">
+
+
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="about" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">☕ Welcome to Coffee Haven — where every sip tells a story. Whether you're
+                        jumpstarting
+                        your morning or unwinding after a long day, our handcrafted brews are made to elevate your mood.
+                        We
+                        serve more than just coffee — we serve comfort, warmth, and a daily ritual that feels like home.
+                        From bold espressos to creamy cappuccinos, come taste the magic that fuels your day.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <!-- =====  Our Menu  ===== -->
+    <section class="menu-section" id="menu">
+        <h2 class="menu-heading">
+            Our&nbsp;Menu
+            <span class="menu-heading__underline"></span>
+        </h2>
+
+        <ul class="menu-grid">
+            <!-- Card 1 -->
+            <li class="coffee-card">
+                <img src="images/burger-frenchfries.png" alt="Espresso" class="coffee-card__img" />
+                <h3 class="coffee-card__title">Espresso</h3>
+                <p class="coffee-card__desc">
+                    Strong and bold — our signature espresso shot brewed to perfection.
+                </p>
+            </li>
+
+            <!-- Card 2 -->
+            <li class="coffee-card">
+                <img src="images/coffee-hero-section.png" alt="Cappuccino" class="coffee-card__img" />
+                <h3 class="coffee-card__title">Cappuccino</h3>
+                <p class="coffee-card__desc">
+                    Silky steamed milk and a cloud of foam over a rich espresso base.
+                </p>
+            </li>
+
+            <!-- Card 3 -->
+            <li class="coffee-card">
+                <img src="images/cold-beverages.png" alt="Latte" class="coffee-card__img" />
+                <h3 class="coffee-card__title">Latte</h3>
+                <p class="coffee-card__desc">
+                    Creamy, comforting, and finished with light latte art on top.
+                </p>
+            </li>
+
+            <!-- Card 4 -->
+            <li class="coffee-card">
+                <img src="images/desserts.png" alt="Mocha" class="coffee-card__img" />
+                <h3 class="coffee-card__title">Mocha</h3>
+                <p class="coffee-card__desc">
+                    Espresso blended with chocolate and milk for a sweet kick.
+                </p>
+            </li>
+
+            <!-- Card 5 -->
+            <li class="coffee-card">
+                <img src="images/hot-beverages.png" alt="Americano" class="coffee-card__img" />
+                <h3 class="coffee-card__title">Americano</h3>
+                <p class="coffee-card__desc">
+                    Hot water poured over espresso — simple, smooth, and aromatic.
+                </p>
+            </li>
+
+            <!-- Card 6 -->
+            <li class="coffee-card">
+                <img src="images/refreshment.png" alt="Cold Brew" class="coffee-card__img" />
+                <h3 class="coffee-card__title">Cold&nbsp;Brew</h3>
+                <p class="coffee-card__desc">
+                    Slow‑steeped 18 hours for a naturally sweet, refreshing flavor.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+<!-- =====  Testimonials Section  ===== -->
+<section class="testimonials-section" id="testimonials">
+  <h2 class="testimonials-heading">
+    TESTIMONIALS
+    <span class="testimonials-heading__underline"></span>
+  </h2>
+
+  <!-- Swiper slider -->
+  <div class="swiper testimonials-swiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="images/user-1.jpg" alt="John Doe" class="testimonial-card__img" />
+          <h3 class="testimonial-card__name">Joli&nbsp;harry</h3>
+          <p class="testimonial-card__text">
+            “The espresso here is absolutely incredible! I start every morning
+            with a cup from Coffee Haven.”
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="images/user-2.jpg" alt="Sarah Lee" class="testimonial-card__img" />
+          <h3 class="testimonial-card__name">Sarah&nbsp;Lee</h3>
+          <p class="testimonial-card__text">
+            “Love the cozy vibe and the cappuccino is perfection. My go‑to place
+            to unwind after work.”
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="images/user-4.jpg" alt="Ahmed Khan" class="testimonial-card__img" />
+          <h3 class="testimonial-card__name">Ahmed&nbsp;Khan</h3>
+          <p class="testimonial-card__text">
+            “Their cold brew kept me refreshed all summer. Smooth, sweet,
+            and just right.”
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 4 (duplicate styles) -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="images/user-3.jpg" alt="Maria Silva" class="testimonial-card__img" />
+          <h3 class="testimonial-card__name">Maria&nbsp;Silva</h3>
+          <p class="testimonial-card__text">
+            “Best mocha in town! And the staff always greet you with a smile.”
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img src="images/user-5.jpg" alt="Maria Silva" class="testimonial-card__img" />
+          <h3 class="testimonial-card__name">Modia&nbsp;Smig</h3>
+          <p class="testimonial-card__text">
+            “Best mocha in town! And the staff always greet you with a smile.”
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Swiper controls -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+
+
+
+ <section class="gallery-section" id="gallery">
+  <!-- Heading -->
+  <h2 class="gallery-heading">
+    GALLERY
+    <span class="gallery-heading__underline"></span>
+  </h2>
+
+  <!-- Image grid -->
+  <ul class="gallery-grid">
+    <li class="gallery-card">
+      <img src="images/gallery-1.jpg" alt="Gallery Image 1" class="gallery-img" />
+    </li>
+    <li class="gallery-card">
+      <img src="images/gallery-2.jpg" alt="Gallery Image 2" class="gallery-img" />
+    </li>
+    <li class="gallery-card">
+      <img src="images/gallery-3.jpg" alt="Gallery Image 3" class="gallery-img" />
+    </li>
+    <li class="gallery-card">
+      <img src="images/gallery-4.jpg" alt="Gallery Image 4" class="gallery-img" />
+    </li>
+    <li class="gallery-card">
+      <img src="images/gallery-5.jpg" alt="Gallery Image 5" class="gallery-img" />
+    </li>
+    <li class="gallery-card">
+      <img src="images/gallery-6.jpg" alt="Gallery Image 6" class="gallery-img" />
+    </li>
+  </ul>
+</section>
+
+
+
+
+<!-- =====  CONTACT US SECTION  ===== -->
+<section class="contact-section" id="contact">
+  <!-- Heading -->
+  <h2 class="contact-heading">
+    CONTACT&nbsp;US
+    <span class="contact-heading__underline"></span>
+  </h2>
+
+  <!-- Two‑column wrapper -->
+  <div class="contact-wrapper">
+    <!-- LEFT ▸ Info list -->
+    <div class="contact-info">
+      <ul class="info-list">
+        <li><i class="fa-solid fa-phone"></i><span>+92‑340‑123‑4567</span></li>
+        <li><i class="fa-solid fa-location-dot"></i><span>123 Coffee Lane, Gujranwala, PK</span></li>
+        <li><i class="fa-solid fa-envelope"></i><span>hello@coffeehaven.com</span></li>
+        <li><i class="fa-solid fa-clock"></i><span>Mon‑Sun 8 AM – 11 PM</span></li>
+        <li><i class="fa-solid fa-globe"></i><span>www.coffeehaven.com</span></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT ▸ Contact form -->
+    <form class="contact-form">
+      <div class="input-group">
+        <input type="text" placeholder="Your Name" required />
+      </div>
+      <div class="input-group">
+        <input type="email" placeholder="Your Email" required />
+      </div>
+      <div class="input-group">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+<<!-- ===== FOOTER SECTION ===== -->
+<footer class="footer-section">
+  <div class="footer-container">
+    
+    <!-- Footer Policies -->
+    <div class="footer-links">
+      <a href="#" class="footer-link">Privacy Policy</a>
+      <a href="#" class="footer-link">Terms of Service</a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="footer-copy">© 2025 Coffee Haven. All rights reserved.</p>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <a href="#" class="social-icon" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="#" class="social-icon" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#" class="social-icon" aria-label="X / Twitter">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a href="#" class="social-icon" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+    
+  </div>
+</footer>
+
+<!-- Font Awesome CDN (if not included already) -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Swiper CSS & JS CDN (put before closing body tag if you like) -->
+ 
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- Your custom swiper init -->
+<script src="index.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const navMenu   = document.getElementById('nav-menu');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
+/* Close menu on link click (mobile) */
+document.querySelectorAll('.nav-link').forEach(link =>
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  })
+);
+</script>
+
+
+</body>
+
+</html>
