@@ -1,0 +1,98 @@
+/* =====  Testimonials Section  ===== */
+.testimonials-section {
+  background: #fff; /* changed to white */
+  color: #000;
+  padding: 100px 0 80px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading style */
+.testimonials-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: 10px;
+}
+.testimonials-heading__underline {
+  position: absolute;
+  left: 25%;
+  width: 50%; /* half underline */
+  bottom: -8px;
+  height: 4px;
+  background: #ffc107;
+  border-radius: 10px;
+}
+
+/* Swiper wrapper padding */
+.testimonials-swiper {
+  padding-bottom: 60px;
+}
+
+/* Individual testimonial card */
+.testimonial-card {
+  background: #f5f5f5; /* light background for contrast */
+  border-radius: 10px;
+  padding: 40px 28px 32px;
+  max-width: 420px;
+  margin: 0 auto;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.testimonial-card__img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffc107;
+  margin: 0 auto 20px;
+}
+.testimonial-card__name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+.testimonial-card__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0 10px;
+}
+
+/* Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffc107;
+}
+
+/* Swiper pagination bullets */
+.swiper-pagination-bullet {
+  background: #bbb;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background: #ffc107;
+}
+
+/* =====  Responsive Breakpoints  ===== */
+@media (max-width: 992px) {
+  .testimonials-heading {
+    font-size: 2rem;
+  }
+  .testimonial-card {
+    padding: 32px 20px;
+  }
+  .testimonial-card__text {
+    font-size: 0.95rem;
+  }
+}
